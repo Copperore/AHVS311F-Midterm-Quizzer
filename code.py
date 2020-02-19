@@ -17,7 +17,7 @@ class question:
         if input == self.answer:
             print(Fore.WHITE + Back.GREEN + 'CORRECT' + Style.RESET_ALL)
         else:
-            print(Fore.WHITE + Back.RED + 'WRONG' + Style.RESET_ALL)
+            print(Fore.WHITE + Back.RED + 'WRONG' + Style.RESET_ALL + " - " + self.choices[self.answer-1])
             #print(self.choices)
             #print(self.answer)
 

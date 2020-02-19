@@ -41,7 +41,7 @@ b) Disgust
 C) Despair
 D) Anxiety
 
-According to Therrien, a commonality between Todorov and Carroll’s stances on horror is that they can both be said to hold that it involves ______.
+X.) According to Therrien, a commonality between Todorov and Carroll’s stances on horror is that they can both be said to hold that it involves ______.
 A) The uncanny
 B) Dread
 C) Monstrosity
@@ -519,7 +519,7 @@ B) criticizer
 c) controller
 D) bystander
 
-Which of the following are NOT considered Therrien’s aspects of survival horror?
+X.) Which of the following are NOT considered Therrien’s aspects of survival horror?
 A) Protagonist sanity/ psychological monitoring
 b) Cinematic gore and terror
 C) Flight over fight strategy
@@ -777,7 +777,7 @@ b) human surroundings
 C) human bodies
 D) killing people
 
-What is the constitutional element of horror based on Carroll's definition?
+X.) What is the constitutional element of horror based on Carroll's definition?
 A) Impurity
 B) Dangerous
 C) Monsters
@@ -1180,7 +1180,7 @@ B) It has the overarching role of supporting a user system
 c) It helps people distinguish computer games from their linear audio-visual counterparts.
 D) It is supporting the sense of presence in a fictional world
 
-Atonal music is popular in many early horror games and is characterized by:
+X.) Atonal music is popular in many early horror games and is characterized by:
 A) Quiet, mystical music with soft tones
 B) Loud, angry music designed to scare
 c) Repeated rifts with no clear center
