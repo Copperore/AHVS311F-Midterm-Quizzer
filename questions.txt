@@ -1,4 +1,5 @@
-﻿X.) Aristotle’s four classical genres are broken down as follows:
+
+X.) Aristotle’s four classical genres are broken down as follows:
 A) Tragedy and epic for the dramatic mode, parody and comedy for the narrative mode
 b) Tragedy and comedy for the dramatic mode, epic and parody for the narrative mode
 C) Tragedy and parody for the dramatic mode, epic and comedy for the narrative mode
@@ -116,7 +117,7 @@ X.) Which aspect of a scary video game plays a role in bypassing your conscious 
 A) visuals
 B) music/sound effects
 C) setting
-d) all of the above
+d) All of the above
 
 X.) Through Todorov, Therrien introduces the idea that fear in games comes from "a hesitation between two potential  explanations: a ______ one and a ______ one."
 a) naturalistic, supernatural
@@ -328,12 +329,6 @@ B) Doom (1993)
 C) Soma (2015)
 d) Friday the 13th (1985)
 
-X.) Which of the following is not considered one of the 3 phases in horror?
-a) Early 18th- Century Gothic-Supernatural
-B) Post-WW2/70s/80s Slasher/Zombie Cycle
-C) Early 20th- Century Gothic-Supernatural
-D) Post-9/11 Torture Porn
-
 X.) The evolution of the horror genre runs parallel to the evolution of the ______ as a whole.
 A) Culture
 b) Medium
@@ -358,13 +353,6 @@ A) The Lurking Horror
 B) Resident Evil
 c) Haunted House
 D) Doom
-
-X.) Choose the correct definition for the term "Pinêdo".
-a) Intended to frighten
-B) Terror/horror
-C) Sacred/profane
-D) Uncanny
-E) None of the above
 
 X.) Dead Space is heavily influenced by:
 A) Splatter films
@@ -548,7 +536,7 @@ X.) In class on Monday, there was a debate discussing whether horror films or ho
 A) Horror film, due to the passive reception that occurs in viewing
 B) Horror video games, due to the balance between agency and loss of control
 c) The horror experience lies in the individual and what one brings to the experience; it is subjective
-D) none, both horror film and video games are not scary for me due to the safety in which one views/plays them.
+D) None, both horror film and video games are not scary for me due to the safety in which one views/plays them.
 
 X.) What type of cutscene does Krzywinska refer to as "a spectacle which enables catharsis and release on the part of the player"?
 A) Grisly Death
@@ -752,13 +740,6 @@ B) Schemata
 C) Gestalt
 D) High-impact music
 
-X.) According to Dan Pinchbeck’s essay Shock, Horror: First-Person Gaming, Horror, and the Art of Ludic Manipulation, what is the simplest advantage of using horror schema in gameplay?
-a) Agents
-B) Pinedo
-C) The uncanny
-D) Automaticity
-E) All of the above
-
 X.) What horror aesthetic draws on our schema of the known world?
 A) Representational
 B) Orchestrational
@@ -819,7 +800,7 @@ X.) According to the article “Shock Horror” in Horror Video Games, the autho
 A) Save screens
 B) Quad damage
 C) Pop-up instructions
-d) All the above
+d) All of the above
 
 X.) Which description is not a characteristic of the flow state?
 a) Higher understanding of the medium in which the content is being experienced
@@ -1264,7 +1245,7 @@ A) Sound in horror games is one of the most important aspect of video game
 b) that sound support game play and created emotions and mood  for the player
 C) That sound would have an impact on how players would game
 D) Both A and B
-E) none of the above
+E) None of the above
 
 X.) In computer games, sounds contribute to the ______
 A) gamer's skills
@@ -1579,7 +1560,7 @@ X.) In the Philosophy of Horror: Paradoxes of the Heart (1990) by Noel Carrol, s
 A) muscular contractions and tension
 B) cringing and shrinking
 C) shuddering and chilling
-d) All the above
+d) All of the above
 
 X.) What is NOT a significant element of Gothic Art?
 a) Dark cities, haunted alleyways, and foreboding fields.
@@ -1667,3 +1648,23 @@ A) Something that is beautiful and charming.
 b) Something that should not exist according to the light of contemporary science
 C) Something that has no human emotion.
 D) Something that has super power.
+
+X.) Choose the correct definition for the term "Pinêdo". (BAD QUESTION - PINEDO IS THE AUTHOR, NOT A TERM)
+a) Intended to frighten
+B) Terror/horror
+C) Sacred/profane
+D) Uncanny
+E) None of the above
+
+X.) According to Dan Pinchbeck’s essay Shock, Horror: First-Person Gaming, Horror, and the Art of Ludic Manipulation, what is the simplest advantage of using horror schema in gameplay? (DOESNT MAKE SENSE)
+a) Agents
+B) Pinedo
+C) The uncanny
+D) Automaticity
+E) All of the above
+
+X.) Which of the following is not considered one of the 3 phases in horror? (IDK IF THIS ONE IS RIGHT)
+a) Early 18th- Century Gothic-Supernatural
+B) Post-WW2/70s/80s Slasher/Zombie Cycle
+C) Early 20th- Century Gothic-Supernatural
+D) Post-9/11 Torture Porn

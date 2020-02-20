@@ -30,6 +30,16 @@ q = ''
 a = ''
 cs = []
 
+numas = 0
+numbs = 0
+numcs = 0
+numds = 0
+numes = 0
+numalls = 0
+totalalls = 0
+numnones = 0
+totalnones = 0
+
 for line in data:
     if line.startswith("X.)"):
         ccount = 0
@@ -43,9 +53,44 @@ for line in data:
             if (line[0].islower()):
                 a = ccount
 
+                # get counts to find most common answer
+                if "All of " in line:
+                    totalalls += 1
+                    if line[0].islower():
+                        numalls += 1
+
+                if "None of " in line:
+                    numnones += 1
+                    if line[0].islower():
+                        totalnones += 1
+
+                if(line[0] == 'a'):
+                    numas += 1
+                elif(line[0] == 'b'):
+                    numbs += 1
+                elif(line[0] == 'c'):
+                    numcs += 1
+                elif(line[0] == 'd'):
+                    numds += 1
+                elif(line[0] == 'e'):
+                    numes += 1
+
+
         else:
             qlist.append(question(q, cs, a))
             cs = []
+
+total = numas + numbs + numcs + numds + numes
+print("Percent of the time the answer is: ")
+print("A: " + str(numas/total*100))
+print("B: " + str(numbs/total*100))
+print("C: " + str(numcs/total*100))
+print("D: " + str(numds/total*100))
+print("E: " + str(numes/total*100))
+print("*NOTE* The stats for E dont yet reflect only answers that have 5 options")
+#print("All of the above: " + str(numalls/totalalls*100))
+#print("None of the above: " + str(numnones/totalnones*100))
+
 
 acceptedInput = [1, 2, 3, 4, 5, 'r', 's']
 
