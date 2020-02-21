@@ -34,9 +34,13 @@ numas = 0
 numbs = 0
 numcs = 0
 numds = 0
+
 numes = 0
+totales = 0
+
 numalls = 0
 totalalls = 0
+
 numnones = 0
 totalnones = 0
 
@@ -50,19 +54,22 @@ for line in data:
         if line:
             ccount += 1
             cs.append(line)
+
+            # finds percent of answer being All of the Above
+            if line[3:9] == "All of":
+                totalalls += 1
+                if line[0].islower():
+                    numalls += 1
+
+            # finds percent of answer being None of the Above
+            if line[3:10] == "None of":
+                numnones += 1
+                if line[0].islower():
+                    totalnones += 1
+
+            # finds percent of answer being each option
             if (line[0].islower()):
                 a = ccount
-
-                # get counts to find most common answer
-                if "All of " in line:
-                    totalalls += 1
-                    if line[0].islower():
-                        numalls += 1
-
-                if "None of " in line:
-                    numnones += 1
-                    if line[0].islower():
-                        totalnones += 1
 
                 if(line[0] == 'a'):
                     numas += 1
@@ -74,25 +81,31 @@ for line in data:
                     numds += 1
                 elif(line[0] == 'e'):
                     numes += 1
+                    totales += 1
 
+            # counts questions that have 5 choices instead of 4
+            if(line[0] == "E"):
+                totales += 1
 
         else:
             qlist.append(question(q, cs, a))
             cs = []
 
 total = numas + numbs + numcs + numds + numes
-print("Percent of the time the answer is: ")
-print("A: " + str(numas/total*100))
-print("B: " + str(numbs/total*100))
-print("C: " + str(numcs/total*100))
-print("D: " + str(numds/total*100))
-print("E: " + str(numes/total*100))
-print("*NOTE* The stats for E dont yet reflect only answers that have 5 options")
-#print("All of the above: " + str(numalls/totalalls*100))
-#print("None of the above: " + str(numnones/totalnones*100))
+print("\n******************************************************************")
+print('\t' + "STATISTICS OF ANSWER DISTRIBUTIONS\n")
+print("\tPercent of the time the answer is: ")
+print("\tA: " + str(round(numas/total*100)))
+print("\tB: " + str(round(numbs/total*100)))
+print("\tC: " + str(round(numcs/total*100)))
+print("\tD: " + str(round(numds/total*100)))
+print("\n\tE: " + str(round(numes/totales*100)) + "\t\t\t(Only when E is an option)")
+print("\tAll of the above:  " + (str(round(numalls/totalalls*100)) if totalalls != 0 else "0") + "\t(Only when All is an option)")
+print("\tNone of the above: " + (str(round(numnones/totalnones*100)) if totalnones != 0 else "0") + "\t(Only when None is an option)")
+print("******************************************************************")
 
 
-acceptedInput = [1, 2, 3, 4, 5, 'r', 's']
+acceptedInput = [1, 2, 3, 4, 5]
 
 while(True):
     userAns = None
@@ -102,7 +115,7 @@ while(True):
     while userAns is None:
         userAns = input("Enter your answer: ")
         try:
-            if userAns in str(acceptedInput[:5]):
+            if userAns in str(acceptedInput):
                 a = int(userAns)
                 current.check_answer(a)
 
