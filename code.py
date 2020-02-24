@@ -21,7 +21,7 @@ class question:
             #print(self.choices)
             #print(self.answer)
 
-with open('questions.txt', 'r') as f:
+with open('questions.txt', 'r', encoding='utf8') as f:
     data = f.read().split('\n')
 
 qlist = []
